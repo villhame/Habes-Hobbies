@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+
+    /* dark green #4d5450, dark yellow #d9b34e, orange #d79778, light #fcf7f3 */
+  }
+  
+  .menu-container {
+    color: rgb(0, 0, 0);
+    background-color: #fcf7f3;  
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+   /*  border: 1px solid #fff;  /* For debugging */ 
+  
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+
+  .links {
+   /*  border: 1px solid #fff;  /* For debugging */ 
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login {
+    margin-left: 20px;
+  }
+
+  
