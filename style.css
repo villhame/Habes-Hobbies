@@ -1,127 +1,82 @@
-* {
+/* Habes Hobies style.css */
+body { 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- 
-
-    /* dark green #4d5450, dark yellow #d9b34e, orange #d79778, light #fcf7f3 */
-  }
-/* Menu container */
-  .menu-container {
-    color: #2a302d;
-    background-color: #fcf7f3;  
-    padding: 20px 0;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
-  }
-  
-  .menu {
-   /*  border: 1px solid #fff;  /* For debugging */ 
-  
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
-    
-  }
+    flex-direction: column;
 
-
-  .links {
-   /*  border: 1px solid #fff;  /* For debugging */ 
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .login {
-    margin-left: 20px;
-  }
-
-  .signup {
-    margin-left: auto;
-  }
-
-
-/* Header with the logo */
-  .header-container {
-    color: #2a302d;
-    background-color: #d9b34e;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header {
-    width: 900px;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    /* align-items: stretch; */
-    align-items: center;
-  }
-
-/* .social,
-.logo,
-.subscribe {
-  border: 1px solid #5995DA;
-} */
-
-.social,
-.subscribe {
-  align-self: flex-end;
-  margin-bottom: 20px;
 }
 
-/* Body content */
-.photo-grid-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .photo-grid {
-    width: 900px;
-    display: flex;
-    justify-content: center;
-    align-items:  center;
-    flex-wrap: wrap;
-    /* flex-direction: row-reverse; */
-  }
-  
-  .photo-grid-item {
-    border: 1px solid #fff;
-    width: 300px;
-    height: 300px;
-    flex-direction: row;
-    align-items: center;
-  }
 
-  .first-item {
-    order: 1;
-  }
-  
-  .last-item {
-    order: -1;
-  }
-
-
-/* Footer */
-
-.footer {
+/* Header */
+.header {
+    height: 72 px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
     display: flex;
     justify-content: space-between;
-  }
-  
-  .footer-item {
-    border: 1px solid #fff;
-    background-color: #D6E9FE;
-    height: 200px;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+
+}
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    flex-direction: column;
     flex: 1;
-  }
+    
+}
 
-  .footer-three {
-    flex: 2;
-  }
+.content1, .content2, .content3, .content4 {
+    display: flex;
+    flex: 1;
 
-  .footer-one,
-.footer-three {
-  background-color: #5995DA;
-  flex: initial;
-  width: 300px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.content{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.content2 {
+    background-color: #ffffff;
+}
+.content3 {
+    background-color: #a8b438;
+}
+.content4 {
+    background-color: #cf1b1b;
+}
+
+
+
+
+/* footer */
+.footer {
+    height: 72 px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
