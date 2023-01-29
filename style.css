@@ -126,8 +126,20 @@ button {
 
 /* Content 3 */
 .content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     min-height: 300px;
     background-color: #e5e7eb;
+    font-style: italic;
+    font-size: 24pt;
+}
+
+.quote {
+    font-weight: bolder;
+    font-size: 14pt;
+    font-style: normal;
 }
 
 
@@ -135,8 +147,35 @@ button {
 .content4 {
     min-height: 300px;
     background-color: #fff;
+    
 }
 
+.calltoact {
+   min-width: 75vw;
+    min-height: 25vh;
+    max-height: 75vh;
+    border: 3px solid #3882f6;
+    background-color: #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.bp2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button2 {
+
+    background: royalblue;
+    border: 1px solid #fff;
+    color: white;
+}
 
 
 
@@ -150,4 +189,9 @@ button {
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+.footerlogo {
+    height: 30px;
+    width: 300px;
 }
