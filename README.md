@@ -13,3 +13,4 @@ restart from scratch. I will now be making this for the landing page of the foun
 28/01/23 - made the bare bones structure of the website. made the footer, header and the first out of 4 content sections complete
 
 29/01/23 - continued to improve on the first content section, and will move on to the others.
+I have finished a first draft and am now continuing to tweak the landing page to more of the channels theme.

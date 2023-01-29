@@ -12,17 +12,16 @@ body {
 /* Header */
 .header {
     height: 72 px;
-    background-color: #1f2937;
-    color: #f9faf8;
+    background-color: #fcf7f3;
     font-size: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-.logo {
+/* .logo {
 
-}
+} */
 a {
     text-decoration: none;
     color: #f9faf8;
@@ -59,7 +58,7 @@ ul {
 
 /* Content 1 */
 .content1{
-    background-color: #1f2937;
+    background-color: #8ca094;
     color: #f9faf8;
     gap: 100px;
     padding: 35PX;
@@ -82,8 +81,8 @@ button {
 }
 #button1 {
 
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #d99778;
+    border: 1px solid #fff;
     color: white;
 }
 
@@ -98,7 +97,7 @@ button {
 
 /* Content 2 */
 .content2 {
-    background-color: #ffffff;
+    background-color: #fcf7f3;
     display: flex;
     flex-direction: column;
 }
@@ -119,7 +118,7 @@ button {
 .imgcard {
     width: 300px;
     height: 300px;
-    border: 3px solid #3882f6;
+    border: 3px solid #8ca094;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 20px;
 }
@@ -146,7 +145,7 @@ button {
 /* Content 4 */
 .content4 {
     min-height: 300px;
-    background-color: #fff;
+    background-color: #fcf7f3;
     
 }
 
@@ -154,8 +153,8 @@ button {
    min-width: 75vw;
     min-height: 25vh;
     max-height: 75vh;
-    border: 3px solid #3882f6;
-    background-color: #3882f6;
+    border: 3px solid #8ca094;
+    background-color: #8ca094;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 20px;
     display: flex;
@@ -172,7 +171,7 @@ button {
 }
 #button2 {
 
-    background: royalblue;
+    background: #d99778;
     border: 1px solid #fff;
     color: white;
 }
@@ -182,7 +181,7 @@ button {
 /* footer */
 .footer {
     height: 72 px;
-    background-color: #1f2937;
+    background-color: #fcf7f3;
     color: #f9faf8;
     font-size: 24px;
     display: flex;
