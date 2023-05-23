@@ -147,6 +147,7 @@ button {
     min-height: 300px;
     background-color: #fcf7f3;
     
+    
 }
 
 .calltoact {
@@ -163,11 +164,13 @@ button {
     justify-content: center;
     align-items: center;
     color: #fff;
+    padding: 20px;
 }
 .bp2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 20px;
 }
 #button2 {
 
